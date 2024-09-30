@@ -87,3 +87,22 @@ plt.ylabel('$x(t)$')
 plt.grid(True)
 plt.legend()
 plt.show()
+
+def coef(N):
+    a = np.zeros(N+1, dtype=complex)
+    a[0] = a_0
+    for k in range(1, N+1):
+        a[k] = (1/T) * (-2j *(np.sin(k*omega_0) + k*omega_0*np.cos(k*omega_0)*(1-2*np.cos(k*omega_0)))) / (k*omega_0)**2
+    return a
+
+N = 50
+omega = np.linspace(-(N+1), (N+1), 2*N) * omega_0
+a_k = ((1/T) * (-2j *(np.sin(omega) + omega*np.cos(omega)*(1-2*np.cos(omega)))) / (omega)**2)
+a_k = np.abs(a_k)
+
+plt.stem(omega, a_k.real, basefmt=" ")
+plt.title(r'Módulo dos coeficientes $|a_k|$ em função de $\omega$')
+plt.xlabel(r'$\omega = k \cdot \omega_0$')
+plt.ylabel(r'$|a_k|$')
+plt.grid(True)
+plt.show()
