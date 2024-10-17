@@ -1,7 +1,7 @@
 # EA614 - Análise de Sinais
 Repositório de códigos para a disciplina EA614 - Análise de Sinais.
 
-### Equipe:
+### Equipe
 * Iran Seixas Lopes Neto - RA: 244827
 * Letícia Lopes Mendes da Silva - RA: 184423
 
