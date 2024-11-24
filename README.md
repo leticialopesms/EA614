@@ -11,3 +11,4 @@ Em cada diretório de atividade, há o enunciado da atividade, o relatório da e
 * **Atividade 01:** Sistemas LIT e Convolução
 * **Atividade 02:** Série de Fourier
 * **Atividade 03:** Filtros Analógicos
+* **Atividade 04:** Amostragem e DFT
