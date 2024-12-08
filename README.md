@@ -2,8 +2,8 @@
 Repositório de códigos para a disciplina EA614 - Análise de Sinais.
 
 ### Equipe
-* Iran Seixas Lopes Neto - RA: 244827
-* Letícia Lopes Mendes da Silva - RA: 184423
+* [Iran Seixas Lopes Neto](https://github.com/iranneto6)
+* [Letícia Lopes Mendes da Silva](https://github.com/leticialopesms)
 
 ### Atividades
 Em cada diretório de atividade, há o enunciado da atividade, o relatório da equipe e os códigos desenvolvidos.
